@@ -1,0 +1,13 @@
+[package]
+name = "rs-divider-py"
+version = "0.1.0"
+authors = ["shmuelamar"]
+edition = "2018"
+
+[dependencies]
+pyo3 = { version = "0.6.0", features = ["extension-module"] }
+rsdivider = { path = "../rs-divider" }
+
+[lib]
+name = "rsdivider_py"
+crate-type = ["cdylib"]

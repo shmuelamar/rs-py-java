@@ -1,0 +1,5 @@
+[package]
+name = "rsdivider"
+version = "0.1.0"
+authors = ["shmuelamar"]
+edition = "2018"

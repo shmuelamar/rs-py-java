@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "rs-divider",
+    "rs-divider-py",
+    "rs-divider-java",
+]

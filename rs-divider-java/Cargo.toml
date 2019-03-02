@@ -1,0 +1,12 @@
+[package]
+name = "rsdividerjava"
+version = "0.1.0"
+authors = ["shmuelamar"]
+edition = "2018"
+
+[dependencies]
+jni = "0.11.0"
+rsdivider = { path = "../rs-divider" }
+
+[lib]
+crate_type = ["cdylib"]
